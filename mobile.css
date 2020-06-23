@@ -1,6 +1,32 @@
 @media screen and (max-width: 500px) {
     #container {
+        margin: 0;
         display: flex;
         flex-direction: column;
+    }
+    #desc {
+        margin: 0;
+        padding: 0;
+        width: 330px;
+        height: 100px;
+        text-align: center;
+        /* margin-left: 20px; */
+    }
+
+    #add {
+        margin: 0;
+    }
+
+    .content2 {
+        margin-top: 10px;
+    }
+    /* #tittle #genre #release #img { */
+    input {
+        margin: 0;
+        /* margin-left: 20px; */
+        padding: 0;
+        width: 330px;
+        height: 50px;
+        text-align: center;
     }
 }

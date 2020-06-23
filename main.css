@@ -2,26 +2,56 @@
     font-family: "Oswald", sans-serif;
 }
 
+.card {
+    width: 10rem;
+}
+
+#container2 {
+    width: 100vw;
+}
+
 #container {
     margin: auto;
     margin-top: 50px;
-    width: 500px;
+    margin-left: 400px;
+    width: 400px;
 }
-#desc {
-    margin: 0;
-    padding: 0;
-    width: 208px;
-    height: 100px;
+.content .content2 {
+    margin: auto;
+    width: 300px;
 }
 
-input {
-    margin: 0;
-    padding: 0;
-    width: 100px;
-    height: 50px;
-}
 #add {
-    width: 208px;
+    width: 330px;
+    height: 30px;
+    background-color: rebeccapurple;
+    color: white;
+    border-radius: 3%;
+    border: 0;
+    padding: 0;
+    margin-left: 20px;
 }
 @media screen and (min-width: 501px) {
+    #desc {
+        margin: 0;
+        margin-top: 5px;
+        margin-left: 20px;
+        padding: 0;
+        width: 330px;
+        height: 100px;
+        text-align: center;
+    }
+
+    .content2 {
+        margin-top: 10px;
+    }
+    /* #tittle #genre #release #img { */
+    input {
+        margin: 0;
+        margin-left: 20px;
+        padding: 0;
+        width: 150px;
+        height: 50px;
+        text-align: center;
+    }
 }
