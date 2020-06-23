@@ -31,6 +31,11 @@ async function addMovie() {
         let response = await fetch(url, options);
         let result = await response.json();
         console.log(result);
+        tittle.innerHTML = null;
+        genre.innerHTML = null;
+        year.innerHTML = null;
+        img.innerHTML = null;
+        desc.innerHTML = null;
         showMovie();
     } catch (error) {
         console.error(error);
@@ -71,14 +76,6 @@ async function showMovie() {
         div.appendChild(img);
         div.appendChild(div2);
         div2.appendChild(p);
-
-        //             <div class="card" style="width: 18rem;">
-        //   <img src="..." class="card-img-top" alt="...">
-        //   <div class="card-body">
-        //     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        //   </div>
-        // </div>
-        // }
     } catch (error) {
         console.error(error);
     }

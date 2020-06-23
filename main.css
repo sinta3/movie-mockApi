@@ -8,6 +8,11 @@
 
 #container2 {
     width: 100vw;
+    display: flex;
+}
+
+.card {
+    margin-right: 50px;
 }
 
 #container {
@@ -17,7 +22,6 @@
     width: 400px;
 }
 .content .content2 {
-    margin: auto;
     width: 300px;
 }
 
@@ -42,15 +46,23 @@
         text-align: center;
     }
 
+    .satu {
+        margin-left: 20px;
+    }
     .content2 {
         margin-top: 10px;
+        margin-left: 20px;
     }
-    /* #tittle #genre #release #img { */
+
+    #tittle #genre #release #img {
+        margin-right: 10px;
+    }
+
     input {
         margin: 0;
         margin-left: 20px;
         padding: 0;
-        width: 150px;
+        width: 160px;
         height: 50px;
         text-align: center;
     }

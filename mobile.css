@@ -1,8 +1,18 @@
 @media screen and (max-width: 500px) {
     #container {
-        margin: 0;
+        margin: 30px;
         display: flex;
         flex-direction: column;
+    }
+    #container2 {
+        margin: 30px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    img {
+        margin: auto;
     }
     #desc {
         margin: 0;
@@ -15,6 +25,11 @@
 
     #add {
         margin: 0;
+    }
+
+    .card {
+        margin: 30px;
+        width: 50vw;
     }
 
     .content2 {
